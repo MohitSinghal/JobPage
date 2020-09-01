@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40B331624FEC55100B79885 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B331524FEC55100B79885 /* SplashViewController.swift */; };
+		E40B331724FEC55100B79885 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B331524FEC55100B79885 /* SplashViewController.swift */; };
+		E40B331824FEC55100B79885 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B331524FEC55100B79885 /* SplashViewController.swift */; };
 		E457155624FD79B800E2BA2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457155524FD79B800E2BA2F /* AppDelegate.swift */; };
 		E457155824FD79B800E2BA2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457155724FD79B800E2BA2F /* ViewController.swift */; };
 		E457155B24FD79B900E2BA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E457155924FD79B900E2BA2F /* Main.storyboard */; };
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40B331524FEC55100B79885 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		E457155224FD79B800E2BA2F /* JobPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E457155524FD79B800E2BA2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E457155724FD79B800E2BA2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E40B330D24FEC4C100B79885 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E40B330E24FEC4C900B79885 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E457155724FD79B800E2BA2F /* ViewController.swift */,
+				E40B331524FEC55100B79885 /* SplashViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E40B330F24FEC4D100B79885 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		E40B331024FEC4DA00B79885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E40B331124FEC4E000B79885 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		E40B331224FEC4E700B79885 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E40B331324FEC4EE00B79885 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E40B331424FEC50500B79885 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		E457154924FD79B800E2BA2F = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +161,15 @@
 		E457155424FD79B800E2BA2F /* JobPage */ = {
 			isa = PBXGroup;
 			children = (
+				E40B331424FEC50500B79885 /* Utility */,
+				E40B331324FEC4EE00B79885 /* Helper */,
+				E40B331224FEC4E700B79885 /* Resources */,
+				E40B331124FEC4E000B79885 /* Service */,
+				E40B331024FEC4DA00B79885 /* Model */,
+				E40B330F24FEC4D100B79885 /* ViewModel */,
+				E40B330E24FEC4C900B79885 /* Controller */,
+				E40B330D24FEC4C100B79885 /* View */,
 				E457155524FD79B800E2BA2F /* AppDelegate.swift */,
-				E457155724FD79B800E2BA2F /* ViewController.swift */,
 				E457155924FD79B900E2BA2F /* Main.storyboard */,
 				E457155F24FD79B900E2BA2F /* Assets.xcassets */,
 				E457156124FD79B900E2BA2F /* LaunchScreen.storyboard */,
@@ -262,6 +331,7 @@
 				E457155824FD79B800E2BA2F /* ViewController.swift in Sources */,
 				E457155624FD79B800E2BA2F /* AppDelegate.swift in Sources */,
 				E457155E24FD79B900E2BA2F /* JobPage.xcdatamodeld in Sources */,
+				E40B331624FEC55100B79885 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E457156E24FD79B900E2BA2F /* JobPageTests.swift in Sources */,
+				E40B331724FEC55100B79885 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E457157924FD79B900E2BA2F /* JobPageUITests.swift in Sources */,
+				E40B331824FEC55100B79885 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +560,7 @@
 				E457157F24FD79B900E2BA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E457158024FD79B900E2BA2F /* Build configuration list for PBXNativeTarget "JobPageTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +569,7 @@
 				E457158224FD79B900E2BA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E457158324FD79B900E2BA2F /* Build configuration list for PBXNativeTarget "JobPageUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +578,7 @@
 				E457158524FD79B900E2BA2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
